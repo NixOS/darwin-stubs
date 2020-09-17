@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: ED21AB6C-E477-3075-81E6-62B7A3F5D8AA', 'x86_64: BE0F9708-0B55-3E78-A15E-C287B8ED13BA' ]
+platform:        macosx
+install-name:    '/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement'
+current-version: 972.70.1
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _SMCopyAllJobDictionaries, _SMJobBless, _SMJobCopyDictionary, 
+                       _SMJobIsEnabled, _SMJobRemove, _SMJobSetEnabled, _SMJobSubmit, 
+                       _SMLoginItemSetEnabled, __SMLoginItemSetEnabledWithURL, _kSMDomainLocalLaunchd, 
+                       _kSMDomainSystemLaunchd, _kSMDomainUserLaunchd, _kSMErrorDomainFramework, 
+                       _kSMErrorDomainIPC, _kSMErrorDomainLaunchd, _kSMInfoKeyAuthorizedClients, 
+                       _kSMInfoKeyPrivilegedExecutables ]
+...

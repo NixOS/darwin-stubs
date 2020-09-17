@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64, x86_64h ]
+uuids:           [ 'i386: B0298D30-EC0B-340E-B7AB-906D9DC7D56F', 'x86_64: 26F32264-148E-35E5-A280-CA035CB3D6F0', 
+                   'x86_64h: 254698C7-7D36-3FFF-864E-ADEEEE543076' ]
+platform:        macosx
+install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib'
+parent-umbrella: vecLib
+exports:         
+  - archs:           [ i386, x86_64, x86_64h ]
+    symbols:         [ _BNNSFilterApply, _BNNSFilterApplyBatch, _BNNSFilterCreateConvolutionLayer, 
+                       _BNNSFilterCreateFullyConnectedLayer, _BNNSFilterCreatePoolingLayer, 
+                       _BNNSFilterDestroy ]
+...

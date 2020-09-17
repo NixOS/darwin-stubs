@@ -1,0 +1,17 @@
+--- !tapi-tbd-v2
+archs: [i386, x86_64]
+uuids: ['i386: 461A81D2-4D0E-3C84-B080-7BAC8A247339', 'x86_64: 2EA87824-A25B-3F18-AF87-1588CC570B37']
+platform: macosx
+install-name: '/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit'
+current-version: 471.7.2
+exports:
+- archs: [x86_64]
+  re-exports: ['@GameController@/Library/Frameworks/GameController.framework/Versions/A/GameController',
+    '@GameplayKit@/Library/Frameworks/GameplayKit.framework/Versions/A/GameplayKit',
+    '@MetalKit@/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit', '@ModelIO@/Library/Frameworks/ModelIO.framework/Versions/A/ModelIO',
+    '@SceneKit@/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit', '@SpriteKit@/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit']
+- archs: [i386, x86_64]
+  re-exports: ['@Cocoa@/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa', '@Metal@/Library/Frameworks/Metal.framework/Versions/A/Metal',
+    '@GameCenter@/Library/Frameworks/GameCenter.framework/Versions/A/GameCenter']
+  symbols: [_GKGameKitUmbrellaFrameworkStub, _kGameKitGameKitVersionNumber, _kGameKitGameKitVersionString]
+...

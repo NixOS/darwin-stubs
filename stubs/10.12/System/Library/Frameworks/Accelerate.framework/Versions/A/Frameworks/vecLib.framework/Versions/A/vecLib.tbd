@@ -1,0 +1,19 @@
+--- !tapi-tbd-v2
+archs: [i386, x86_64, x86_64h]
+uuids: ['i386: A62F02B5-224E-3A98-B2E2-74F9A34DC041', 'x86_64: A2FC8240-F62F-3A23-AB10-8CE6B56AF476',
+  'x86_64h: 7C5733E7-0568-3E7D-AF61-160F19FED544']
+platform: macosx
+install-name: '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib'
+current-version: 600.60.1
+exports:
+- archs: [x86_64, x86_64h]
+  re-exports: ['@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib']
+- archs: [i386, x86_64, x86_64h]
+  re-exports: ['@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib',
+    '@Accelerate@/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib']
+...

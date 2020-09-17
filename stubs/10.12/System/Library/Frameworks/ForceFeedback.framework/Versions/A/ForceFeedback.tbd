@@ -1,0 +1,16 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 11492154-36B9-31B9-A990-A34E37BF58EF', 'x86_64: 313F7E57-FA8B-3AEC-BE47-C2C7B4F6FFAB' ]
+platform:        macosx
+install-name:    '/System/Library/Frameworks/ForceFeedback.framework/Versions/A/ForceFeedback'
+current-version: 1.0.2
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _FFCreateDevice, _FFDeviceCreateEffect, _FFDeviceEscape, _FFDeviceGetForceFeedbackCapabilities, 
+                       _FFDeviceGetForceFeedbackProperty, _FFDeviceGetForceFeedbackState, 
+                       _FFDeviceReleaseEffect, _FFDeviceSendForceFeedbackCommand, 
+                       _FFDeviceSetCooperativeLevel, _FFDeviceSetForceFeedbackProperty, 
+                       _FFEffectDownload, _FFEffectEscape, _FFEffectGetEffectStatus, 
+                       _FFEffectGetParameters, _FFEffectSetParameters, _FFEffectStart, 
+                       _FFEffectStop, _FFEffectUnload, _FFIsForceFeedback, _FFReleaseDevice ]
+...

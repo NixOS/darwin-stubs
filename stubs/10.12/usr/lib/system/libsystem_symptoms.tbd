@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: C6142AA8-242B-35F3-A0FB-9AC078DA090A', 'x86_64: 3390E07C-C1CE-348F-ADBD-2C5440B45EAA' ]
+platform:        macosx
+install-name:    '/usr/lib/system/libsystem_symptoms.dylib'
+parent-umbrella: System
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ __symptoms_is_daemon_fallback_blacklisted, _symptom_framework_init, 
+                       _symptom_framework_set_version, _symptom_new, _symptom_send, 
+                       _symptom_send_immediate, _symptom_set_additional_qualifier, 
+                       _symptom_set_qualifier ]
+...

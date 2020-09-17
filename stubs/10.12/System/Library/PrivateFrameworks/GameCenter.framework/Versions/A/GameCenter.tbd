@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs: [i386, x86_64]
+uuids: ['i386: E64143B9-CBC1-3C0A-90F6-403F1C3BFBFE', 'x86_64: D36B6247-5A59-35DA-A4B7-50A434AA0C3F']
+platform: macosx
+install-name: '/System/Library/PrivateFrameworks/GameCenter.framework/Versions/A/GameCenter'
+current-version: 471.7.2
+exports:
+- archs: [i386, x86_64]
+  re-exports: ['@GameCenterFoundation@/Library/Frameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation',
+    '@GameCenterUI@/Library/Frameworks/GameCenterUI.framework/Versions/A/GameCenterUI']
+  symbols: [_GKGameCenterUmbrellaFrameworkStub, _kGameKitGameCenterVersionNumber,
+    _kGameKitGameCenterVersionString]
+...

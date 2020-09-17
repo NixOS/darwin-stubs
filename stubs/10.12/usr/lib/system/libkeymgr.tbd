@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 6629C3DA-A8E6-3FD6-A760-63283F62086A', 'x86_64: 7AA011A9-DC21-3488-BF73-3B5B14D1FDD6' ]
+platform:        macosx
+install-name:    '/usr/lib/system/libkeymgr.dylib'
+current-version: 28
+parent-umbrella: System
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___keymgr_dwarf2_register_sections, ___keymgr_global, ___keymgr_initializer, 
+                       __keymgr_get_and_lock_processwide_ptr, __keymgr_get_and_lock_processwide_ptr_2, 
+                       __keymgr_get_lock_count_processwide_ptr, __keymgr_get_lockmode_processwide_ptr, 
+                       __keymgr_set_and_unlock_processwide_ptr, __keymgr_set_lockmode_processwide_ptr, 
+                       __keymgr_unlock_processwide_ptr, _keymgrVersionNumber, _keymgrVersionString ]
+...
