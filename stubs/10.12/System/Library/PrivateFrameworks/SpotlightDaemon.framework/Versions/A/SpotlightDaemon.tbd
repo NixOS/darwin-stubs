@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: D6C224C2-1F19-3CF2-95D2-2E59D47582C7' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/SpotlightDaemon.framework/Versions/A/SpotlightDaemon'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _SpotlightDaemonVersionNumber, _SpotlightDaemonVersionString, 
+                       _startAllAgents, _startIndexAgent ]
+    objc-classes:    [ _DummyObject, _MDAgent, _MDAgentDelegate, _MDClient, _MDIndexAgent, 
+                       _MDSearchAgent, _MDSearchableIndexService, _SpotlightReceiverConnection, 
+                       _SpotlightSender ]
+...

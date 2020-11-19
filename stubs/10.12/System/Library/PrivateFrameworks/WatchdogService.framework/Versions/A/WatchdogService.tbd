@@ -1,0 +1,9 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 42892B30-9C7B-3CF1-9BD7-293118206560' ]
+platform:        macosx
+install-name:    '@rpath/WatchdogService.framework/Versions/A/WatchdogService'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _wds_create, _wds_destroy, _wds_get_mach_port, _wds_process_message ]
+...

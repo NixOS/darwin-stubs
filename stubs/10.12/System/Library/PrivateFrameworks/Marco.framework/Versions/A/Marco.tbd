@@ -1,0 +1,27 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 997AA11B-AA63-30AC-B2E8-7A1F43197315', 'x86_64: A4D35D48-6020-3FF7-BB4F-8193534A4B8F' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/Marco.framework/Versions/A/Marco'
+current-version: 800
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _MarcoAction, _MarcoActionWithUserInfo, _MarcoAddCallMetric, 
+                       _MarcoAddCallMetric_Double, _MarcoAddCallMetric_Float, _MarcoAddCallMetric_Int, 
+                       _MarcoAddCallMetric_Short, _MarcoAddLogFile, _MarcoBeginSession, 
+                       _MarcoCanLogMadridMessageBodies, _MarcoCanLogMadridMessageBodiesCF, 
+                       _MarcoConnect, _MarcoDiconnect, _MarcoEndSession, _MarcoEvent, 
+                       _MarcoLog, _MarcoLogCallInfo, _MarcoLogLocalPreview, _MarcoLogLocalPreviewEvent, 
+                       _MarcoLogMadrid, _MarcoLogMadridCF, _MarcoLogMadridCF_V, _MarcoLogMadridEvent, 
+                       _MarcoLogMadridEventCF, _MarcoLogMadridEventCF_V, _MarcoLogMadridLevel, 
+                       _MarcoLogMadridLevelCF_V, _MarcoLogRegistration, _MarcoLoggingStringForMessageData, 
+                       _MarcoMadridLogLevel, _MarcoNoteCheckpoint, _MarcoNoteQuality, 
+                       _MarcoPerformSnapshot, _MarcoPulse, _MarcoSetFailureReason, 
+                       _MarcoSetInitiator, _MarcoSetRecipient, _MarcoShouldLog, _MarcoShouldLogCallMetric, 
+                       _MarcoShouldLogCheckpoints, _MarcoShouldLogLocalPreview, _MarcoShouldLogMadrid, 
+                       _MarcoShouldLogMadridCF, _MarcoShouldLogMadridEvent, _MarcoShouldLogMadridEventCF, 
+                       _MarcoShouldLogMadridLevel, _MarcoShouldLogMadridLevelCF, 
+                       _MarcoShouldLogQuality, _MarcoShouldLogRegistration, _MarcoStartPing, 
+                       _MarcoSyncLoggingsPreferences, _MarcoWarnLocalPreview, _MarcoWarnMadrid, 
+                       _MarcoWarnMadridCF, _MarcoWarnMadridCF_V, _MarcoWarnRegistration ]
+...

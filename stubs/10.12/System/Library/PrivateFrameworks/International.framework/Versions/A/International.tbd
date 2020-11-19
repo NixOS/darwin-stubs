@@ -1,0 +1,11 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: A277BB56-607E-355E-827B-577E3B1E4104', 'x86_64: 8D66C428-42F5-3E0A-9D95-A47DC2DBEA36' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/International.framework/Versions/A/International'
+current-version: 109.1
+compatibility-version: 1.6
+exports:
+  - archs:           [ i386, x86_64 ]
+    objc-classes:    [ _SACountry, _SALanguage ]
+...

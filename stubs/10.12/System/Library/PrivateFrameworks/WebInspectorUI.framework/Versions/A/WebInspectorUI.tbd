@@ -1,0 +1,7 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 6E79C3DB-5649-3D61-8EA9-DBD8CBEF1084', 'x86_64: 1B96B96C-13D0-375A-9D21-E1339304102E' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/WebInspectorUI.framework/Versions/A/WebInspectorUI'
+current-version: 603.3.8
+...

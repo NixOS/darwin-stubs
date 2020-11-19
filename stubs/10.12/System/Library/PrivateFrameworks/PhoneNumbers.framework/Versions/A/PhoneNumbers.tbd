@@ -1,0 +1,23 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 61A8FF1F-69BD-3D3C-AD7F-EA95C809DEDE', 'x86_64: B8EFDDD3-BA26-39B8-9EA0-3649184BF527' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers'
+current-version: 47
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _CFPhoneNumberCopyCountryCode, _CFPhoneNumberCopyFormattedInternationalRepresentation, 
+                       _CFPhoneNumberCopyFormattedRepresentation, _CFPhoneNumberCopyNumberForInternationalAssist, 
+                       _CFPhoneNumberCopyNumberForLocalAssist, _CFPhoneNumberCopyUnformattedInternationalRepresentation, 
+                       _CFPhoneNumberCopyUnformattedRepresentation, _CFPhoneNumberCreate, 
+                       _CFPhoneNumberCreateCopy, _CFPhoneNumberCreateString, _CFPhoneNumberGetTypeID, 
+                       _PNCopyBestGuessCountryCodeForNumber, _PNCopyBestGuessNormalizedNumberForCountry, 
+                       _PNCopyCompressedFormattedStringWithCountry, _PNCopyFormattedStringWithCountry, 
+                       _PNCreateFormattedStringWithCountry, _PNIsValidPhoneNumberForCountry, 
+                       _PNPhoneNumbersEqual, __PNCopyCountryCodeForInternationalCode, 
+                       __PNCopyFormattedNumberForDigitsWithCountryByRemovingAtIndex, 
+                       __PNCopyFormattedNumberSuggestionForDigitsWithCountry, __PNCopyFullyQualifiedNumberForCountry, 
+                       __PNCopyIndexStringsForAddressBookSearch, __PNCopyInternationalCodeForCountry, 
+                       __PNCopyLastFourDigitsOfLocalNumber, __PNCopyPrefixForCountry, 
+                       __PNCreateStringByStrippingFormattingAndNotVisiblyAllowable ]
+...

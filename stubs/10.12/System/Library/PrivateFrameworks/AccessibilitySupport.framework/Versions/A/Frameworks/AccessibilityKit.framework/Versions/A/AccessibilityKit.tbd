@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 34E7CC50-B2E0-3C97-8252-79150B60AE03' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Frameworks/AccessibilityKit.framework/Versions/A/AccessibilityKit'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _AXKDebugPrintHierarchy, _AccessibilityKitVersionNumber, _AccessibilityKitVersionString ]
+    objc-classes:    [ _AXKAndAction, _AXKApplicationController, _AXKApplicationOperation, 
+                       _AXKBaseAction, _AXKChildrenNavigationMapper, _AXKClickAction, 
+                       _AXKCompositeAction, _AXKElementController, _AXKFoundationAction, 
+                       _AXKOrAction, _AXKRemoteSearchManager, _AXKWorkspaceManager, 
+                       __AXKClassPredicate, __AXKClassRegistrar, __AXKElementCacheValue ]
+...

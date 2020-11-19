@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 3260E180-9CD9-3502-93A3-1B4962A39D9A', 'x86_64: 6CA07CDF-1E35-34E9-95BF-BD565FF42BAD' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService'
+exports:
+  - archs:           [ i386 ]
+    objc-classes:    [ _APSCUTWeakReference, _APSCertificateStorage, _APSPerAppTokenMap, 
+                       _APSPerAppTokenMapEntry, _APSPreferences, _APSSystemUser ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _APSEnvironmentDemo, _APSEnvironmentDevelopment, _APSEnvironmentProduction, 
+                       _APSError, _APSErrorDomain, _APSUnderlyingError ]
+    objc-classes:    [ _APSAccessCheck, _APSConnection, _APSIncomingMessage, _APSMessage, 
+                       _APSOutgoingMessage ]
+...

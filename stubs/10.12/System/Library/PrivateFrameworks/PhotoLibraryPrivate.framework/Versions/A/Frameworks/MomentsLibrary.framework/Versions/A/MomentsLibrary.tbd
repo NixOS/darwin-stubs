@@ -1,0 +1,22 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 754B78D4-537A-38F6-ACC0-B489C7F8B278' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/MomentsLibrary.framework/Versions/A/MomentsLibrary'
+current-version: 3161.4.140
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _MomentsFrameworkBundle, _MomentsHomeLocationName, _MomentsLibraryVersionNumber, 
+                       _MomentsLibraryVersionString, _PLMomentsCanUseLocation, _PLMomentsLibraryTraceSubsystem, 
+                       _PLMomentsLocalizedFrameworkString, _descriptionForAdditionalPlaceInfo, 
+                       _descriptionForAdditionalPlaceInfos, _descriptionForGEOMapItem, 
+                       _descriptionForGEOPlace, _descriptionForMapRegion, _stringFromDominantOrderType, 
+                       _stringFromGEOMapItemPlaceType, _stringFromGEOPlaceType, _uniqueObjectIDsFromMomentLists, 
+                       _uniqueObjectIDsFromMoments ]
+    objc-classes:    [ _PLMomentAnalyzer, _PLMomentAnalyzerGeoRequestInfo, _PLMomentAnalyzerQueue, 
+                       _PLMomentAnalyzerWorkThread, _PLMomentCluster, _PLMomentClustering, 
+                       _PLMomentGeneration, _PLMomentListCluster, _PLMomentListClustering, 
+                       _PLMomentNameInfo, _PLMomentNode, _PLMomentNodeCache, _PLMomentTemporalSnapshot, 
+                       _PLRevGeoCompoundNameInfo, _PLRevGeoLocationInfo, _PLRevGeoPlace, 
+                       _PLRevGeoPlaceAnnotation, _PLRevGeoPlaceInfo, _PLRevGeoRepresentativeNameInfo ]
+...

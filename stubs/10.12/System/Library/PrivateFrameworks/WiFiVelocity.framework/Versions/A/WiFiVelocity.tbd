@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: E58605D9-7783-3F07-9892-D467FFD23073' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/WiFiVelocity.framework/Versions/A/WiFiVelocity'
+exports:
+  - archs:           [ x86_64 ]
+    objc-classes:    [ _W5AWDLStatus, _W5BluetoothStatus, _W5Client, _W5DebugConfiguration, 
+                       _W5DiagnosticsTestRequest, _W5DiagnosticsTestResult, _W5Event, 
+                       _W5NetworkStatus, _W5Peer, _W5PerfConfiguration, _W5PerfResult, 
+                       _W5PerfUpdate, _W5PingResult, _W5PowerStatus, _W5SpeedTestResult, 
+                       _W5Status, _W5WiFiChannel, _W5WiFiLinkQualityUpdate, _W5WiFiPreferredNetwork, 
+                       _W5WiFiScanResult, _W5WiFiStatus ]
+...

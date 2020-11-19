@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: D6C7A06F-39FE-34FA-AB07-A294126E4885' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/StoreXPCServices.framework/Versions/A/StoreXPCServices'
+current-version: 379
+exports:
+  - archs:           [ x86_64 ]
+    objc-classes:    [ _Client ]
+...

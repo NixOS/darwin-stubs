@@ -1,0 +1,16 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: D979121A-358C-309C-ADCE-0DC700FB20F7', 'x86_64: 3EDBF46C-0453-3AED-9BC5-F6F00202B13F' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/JavaLaunching.framework/Versions/A/JavaLaunching'
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _JLCopyDefaultPrefForTaskAndKey, _JLCopyUserPrefForTaskAndKey, 
+                       _JLCreateCompleteJVMListForTask, _JLCreateJVMListForTask, 
+                       _JLCreateJVMListForTaskVersionAndArch, _JLCreateJVMListForTaskVersionAndArchs, 
+                       _JLCreateJVMListOfCurrentArchitectureForTask, _JLCreateLatestJVMInfo, 
+                       _JLIsRuntimeAndWebComponentsInstalled, _JLIsRuntimeInstalled, 
+                       _JLIsRuntimeInstalledForTask, _JLReportWebComponentsUsed, 
+                       _JLRequestRuntimeInstall, _JLSaveUserPrefForTaskAndKey, _JLSetPreferredOrderForTask, 
+                       _JLSetWebComponentsEnabled ]
+...

@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: C20B97A8-DB1C-3F08-AC42-E039CB74CC7F', 'x86_64: F8E957B2-D3F0-3B73-B38C-AE8868F00939' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/SecCodeWrapper.framework/Versions/A/SecCodeWrapper'
+exports:
+  - archs:           [ x86_64 ]
+    objc-ivars:      [ _CodeIdentity._cached_entitlements, _CodeIdentity._haveCheckedValidity, 
+                       _CodeIdentity._secCodeRef, _CodeRequirement._data, _CodeRequirement._secRequirementRef, 
+                       _CodeRequirement._text, _DynamicCodeIdentity._pid, _StaticCodeIdentity._secStaticCodeRef ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___SecCodeWrapperVersionNumber, ___SecCodeWrapperVersionString ]
+    objc-classes:    [ _CodeIdentity, _CodeRequirement, _DynamicCodeIdentity, _StaticCodeIdentity ]
+...
