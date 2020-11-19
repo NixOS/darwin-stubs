@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libxpc.dylib'
 current-version: 972.70.1
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _OS_os_transaction, _OS_xpc_activity, _OS_xpc_array, _OS_xpc_bool, 
                        _OS_xpc_bundle, _OS_xpc_connection, _OS_xpc_data, _OS_xpc_date, 

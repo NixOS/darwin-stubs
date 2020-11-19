@@ -3,7 +3,7 @@ archs:           [ x86_64 ]
 uuids:           [ 'x86_64: 43187A38-2B73-39B5-A4A9-8B6268945E23' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/vmnet.framework/Versions/A/vmnet'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _vmnet_estimated_packets_available_key, _vmnet_interface_id_key, 
                        _vmnet_interface_set_event_callback, _vmnet_mac_address_key, 

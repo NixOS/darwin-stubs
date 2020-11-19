@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 4C62D22F-1A40-3A99-830A-D24C78326A47', 'x86_64: B285EAD6-B3AA-3753-BB85-75864BD6E76C' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _gluBeginCurve, _gluBeginPolygon, _gluBeginSurface, _gluBeginTrim, 
                        _gluBuild1DMipmapLevels, _gluBuild1DMipmapLevelsCTX, _gluBuild1DMipmaps, 

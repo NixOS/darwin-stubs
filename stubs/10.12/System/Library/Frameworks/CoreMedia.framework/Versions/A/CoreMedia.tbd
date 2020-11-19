@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 641AE9D5-F2A3-3518-A50F-F0B852E5C39F', 'x86_64: 570690D8-A956-3629-9E46-4F8BDDB8A82C' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _AudioToolbox_AudioConverterDispose, _AudioToolbox_AudioConverterGetProperty, 
                        _AudioToolbox_AudioConverterNew, _AudioToolbox_AudioConverterSetProperty, 

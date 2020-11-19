@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: B036C6FC-A3D0-30D3-9620-30D16A149C9F', 'x86_64: 7997D588-B542-3EBB-B822-D719C1114BB4' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AVFoundation.framework/Versions/A/Frameworks/AVFAudio.framework/Versions/A/AVFAudio'
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _AVAudioClock, _AVAudioUnitSplitter, _AudioPlayerImpl, _SpeexEndpointer, 
                        _VoiceVerificationEndpointer ]

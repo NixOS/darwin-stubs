@@ -4,7 +4,7 @@ uuids:           [ 'i386: CAA3BCAE-EED4-310F-8656-4F5733E59412', 'x86_64: 46B122
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork'
 current-version: 811.5.4
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$hide$os10.0$.objc_class_name_NSCachedURLResponse', '$ld$hide$os10.0$.objc_class_name_NSGZipDecoder', 
                        '$ld$hide$os10.0$.objc_class_name_NSHTTPCookie', '$ld$hide$os10.0$.objc_class_name_NSHTTPCookieStorage', 

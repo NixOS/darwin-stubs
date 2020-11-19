@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: ED2F2EAF-6A25-3770-A7C4-DBB3F5663664', 'x86_64: 9A1F7F4C-B1C2-3639-B2B6-C86E77DD5C2F' ]
 platform:        macosx
 install-name:    '/System/Library/PrivateFrameworks/GameCenterUI.framework/Versions/A/GameCenterUI'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _GKAccountViewController._accountName, _GKAccountViewController._alias, 
                        _GKAccountViewController._firstName, _GKAccountViewController._lastName, 

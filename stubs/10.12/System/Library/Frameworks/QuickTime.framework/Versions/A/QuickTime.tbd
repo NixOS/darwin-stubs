@@ -4,7 +4,7 @@ uuids:           [ 'i386: 83B9A2BD-5A08-333E-88DC-A769406B9E1D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime'
 current-version: 2978.7
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _AbortPrePrerollMovie, _AddCallBackToTimeBase, _AddClonedTrackToMovie, 
                        _AddEmptyTrackToMovie, _AddFilePreview, _AddImageDescriptionExtension, 

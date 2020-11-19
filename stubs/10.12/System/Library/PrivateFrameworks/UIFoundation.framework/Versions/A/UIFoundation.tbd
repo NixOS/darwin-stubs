@@ -4,7 +4,7 @@ uuids:           [ 'i386: 1823A486-DE5F-3BB9-8ABE-42BC116A4301', 'x86_64: 2A3063
 platform:        macosx
 install-name:    '/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation'
 current-version: 490.7
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _NSATSGlyphGenerator, _NSStringDrawingContextImpl, _NSTextContainerAuxiliary, 
                        __UIPointVector ]

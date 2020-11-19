@@ -4,7 +4,7 @@ uuids:           [ 'i386: 39495DE1-9ADD-37CF-8C99-D4B20A8B369D', 'x86_64: 5122FA
 platform:        macosx
 install-name:    '/System/Library/Frameworks/InstantMessage.framework/Versions/A/InstantMessage'
 current-version: 800
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$add$os10.4$.objc_class_name_IMService', '$ld$add$os10.4$.objc_class_name_IMServiceAgent', 
                        '$ld$add$os10.4$.objc_class_name_IMServiceAgentCenter', '$ld$add$os10.4$.objc_class_name_IMServiceAgentImpl', 

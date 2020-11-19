@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 1E7F413D-9553-3A4C-B6D0-E85B4CC1EA94', 'x86_64: 3E11A9DE-DB16-38DF-9629-3BA3EF723B42' ]
 platform:        macosx
 install-name:    '/usr/lib/libcupscgi.1.dylib'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _cgiCheckVariables, _cgiClearVariables, _cgiCompileSearch, 
                        _cgiCopyTemplateFile, _cgiCopyTemplateLang, _cgiDoSearch, 

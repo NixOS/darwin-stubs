@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox'
 current-version: 857.8
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$add$os10.4$_HIShapeContainsPoint', '$ld$add$os10.4$_HIShapeCreateCopy', 
                        '$ld$add$os10.4$_HIShapeCreateDifference', '$ld$add$os10.4$_HIShapeCreateEmpty', 

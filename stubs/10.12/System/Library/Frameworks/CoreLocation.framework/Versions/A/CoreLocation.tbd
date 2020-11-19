@@ -4,7 +4,7 @@ uuids:           [ 'i386: B4FF6A5C-4EDA-3927-8336-672586BAC7C8', 'x86_64: C4C6BE
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation'
 current-version: 2101.0.63
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _CLAppResetChangedNotification, _CLAppStatusChangedNotification, 
                        _CLAuthStatusChangedNotification, _CLAuthorizationStatusChangedNotification, 

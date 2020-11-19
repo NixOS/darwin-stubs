@@ -4,7 +4,7 @@ uuids:           [ 'i386: 2C89FCA7-8BCF-351E-ACFD-8AE5B7DFCA06', 'x86_64: 4F3CDD
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CalendarStore.framework/Versions/A/CalendarStore'
 current-version: 1506
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _CalCalendarItem._alarms, _CalCalendarItem._calendar, _CalCalendarItem._dateStamp, 
                        _CalCalendarItem._notes, _CalCalendarItem._objectID, _CalCalendarItem._reserved, 

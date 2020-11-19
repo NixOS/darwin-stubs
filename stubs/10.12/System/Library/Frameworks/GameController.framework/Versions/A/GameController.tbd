@@ -3,7 +3,7 @@ archs:           [ x86_64 ]
 uuids:           [ 'x86_64: DAC8C83B-7EC8-3A88-A725-E13DD905BF4F' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/GameController.framework/Versions/A/GameController'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _ADClientAddValueForScalarKey, _GCCommonGetPreferencesBooleanValue, 
                        _GCControllerDidConnectNotification, _GCControllerDidDisconnectNotification, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 3F06DBF6-BE53-3697-A6DD-BAE38440DFBB', 'x86_64: 08F1A246-1367-32EC-B3CE-724379409729' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _IOSurfaceAlignProperty, _IOSurfaceAllowsPixelSizeCasting, 
                        _IOSurfaceBindAccel, _IOSurfaceBindAccelOnPlane, _IOSurfaceClientAlignProperty, 

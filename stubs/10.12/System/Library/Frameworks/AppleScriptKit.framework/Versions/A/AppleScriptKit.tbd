@@ -4,7 +4,7 @@ uuids:           [ 'i386: D60DE38D-53FB-38BE-B2AA-C8E36816758D', 'x86_64: 1022D2
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AppleScriptKit.framework/Versions/A/AppleScriptKit'
 current-version: 83
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _ASKLoadMovieScriptCommand ]
   - archs:           [ x86_64 ]

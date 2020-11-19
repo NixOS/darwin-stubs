@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: BA48EC49-BAEF-3879-B65D-AFC99FA1ACC0' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/IMServicePlugIn.framework/Versions/A/Frameworks/IMServicePlugInSupport.framework/Versions/A/IMServicePlugInSupport'
 current-version: 1000
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _IMAccountSettingLoginHandle, _IMAccountSettingPassword, _IMAccountSettingServerHost, 
                        _IMAccountSettingServerPort, _IMAccountSettingUsesSSL, _IMAttributeAddress, 

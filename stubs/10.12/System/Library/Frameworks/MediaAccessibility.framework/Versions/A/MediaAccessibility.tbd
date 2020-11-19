@@ -4,7 +4,7 @@ uuids:           [ 'i386: 2C902DF8-E57A-37E3-891B-736B16AE074C', 'x86_64: 0BD827
 platform:        macosx
 install-name:    '/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/MediaAccessibility'
 current-version: 62
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _MAAudibleMediaCopyPreferredCharacteristics, _MAAudibleMediaPrefCopyPreferDescriptiveVideo, 
                        _MAAudibleMediaPrefResetAll, _MAAudibleMediaPrefSetPreferDescriptiveVideo, 

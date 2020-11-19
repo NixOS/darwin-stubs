@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: D474B6DD-F5FB-3AF3-A61C-0C8AAB50B9AD', 'x86_64: C042499D-F947-3A1B-A16B-537C399D6240' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _AddRemoveView.mActionPopupCell, _AddRemoveView.mAddAction, 
                        _AddRemoveView.mAddRemoveControl, _AddRemoveView.mDeleteAction, 

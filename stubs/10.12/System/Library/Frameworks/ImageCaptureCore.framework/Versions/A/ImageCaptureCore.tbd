@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: D05D98CA-0CF9-3A8C-ADC1-8845E2CBE4B7', 'x86_64: A640CA2F-8093-34AB-947C-26679ECB8A6D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/ImageCaptureCore'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _ICCameraFileProperties._burstFavorite, _ICCameraFileProperties._burstPicked, 
                        _ICCameraFileProperties._burstUUID, _ICCameraFileProperties._createdFilename, 

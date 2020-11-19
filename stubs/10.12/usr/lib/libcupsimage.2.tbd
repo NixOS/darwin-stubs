@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/libcupsimage.2.dylib'
 current-version: 2.3
 compatibility-version: 2
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ __cupsRasterAddError, __cupsRasterClearError, __cupsRasterExecPS, 
                        _cupsRasterClose, _cupsRasterErrorString, _cupsRasterInitPWGHeader, 

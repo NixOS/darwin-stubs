@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: D03A971D-6EEE-3D03-8D7F-729AB9F347FE', 'x86_64: 78767F88-91D4-31CE-AAC6-1F9407F479BB' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _AudioConvertHostTimeToNanos, _AudioConvertNanosToHostTime, 
                        _AudioDeviceAddIOProc, _AudioDeviceAddPropertyListener, _AudioDeviceCreateIOProcID, 

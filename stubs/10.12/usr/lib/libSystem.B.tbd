@@ -4,7 +4,7 @@ uuids:           [ 'i386: 6A9E44D1-A64F-308D-A8CC-17A95FA296D6', 'x86_64: F18AC1
 platform:        macosx
 install-name:    '/usr/lib/libSystem.B.dylib'
 current-version: 1238.60.2
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     re-exports:      [ '/usr/lib/system/libcache.dylib', '/usr/lib/system/libcommonCrypto.dylib', 
                        '/usr/lib/system/libcompiler_rt.dylib', '/usr/lib/system/libcopyfile.dylib', 

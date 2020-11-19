@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 11E390C3-5087-33F3-8B6D-C9FA1E1AC1A3', 'x86_64: DD6F8D1F-69EE-335A-8654-72B24E25423D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-classes:    [ _AUAudioUnitRemoteViewController, _AUAudioUnitViewService, 
                        _AUViewController, _CAInterDeviceAudioViewController, _iDamDevice ]

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 349E395E-8BBA-3CEC-A483-1D7D02777F5E', 'x86_64: C1577590-E4BB-39FC-B774-4007382DA84B' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/JavaVM.framework/Versions/A/JavaVM'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _NSJavaConfiguration._vendorName ]
   - archs:           [ i386, x86_64 ]

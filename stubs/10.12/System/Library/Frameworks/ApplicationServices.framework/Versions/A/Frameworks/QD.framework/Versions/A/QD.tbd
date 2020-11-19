@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD'
 current-version: 302
 parent-umbrella: ApplicationServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _ATSUCalculateBaselineDeltas, _ATSUCopyToHandle, _ATSUCountFontTracking, 
                        _ATSUCreateTextLayoutWithTextHandle, _ATSUDrawGlyphInfo, _ATSUGetFontFallbacks, 

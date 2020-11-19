@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 7F52C641-93BA-386B-AFB2-0BDF6017BAAA', 'x86_64: 7CDEB852-B3B7-328F-9537-DFB3A58B882C' ]
 platform:        macosx
 install-name:    '/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/ContactsPersistence'
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _ABCDContactIndex, _ABCDCoreDataDeprecations, _ABCDCustomPropertyValue, 
                        _ABCDDateComponents, _ABCDDateUtils, _ABCDPlatform, _CNAddPersistentStoreResult, 

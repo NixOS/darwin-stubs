@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 1AAC216E-80C8-3760-8312-2D9E4FF19AAB', 'x86_64: 45BEA292-4550-3082-8CE7-5D6CE7E0052A' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ ___DirectoryServiceVersionNumber, ___DirectoryServiceVersionString, 
                        _dsAddAttribute, _dsAddAttributeValue, _dsAddChildPIDToReference, 

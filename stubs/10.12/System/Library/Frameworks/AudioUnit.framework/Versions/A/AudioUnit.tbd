@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 2C1781EB-CD1F-3FAB-AD94-E8EA31D3B357', 'x86_64: B92868F8-2F15-32C0-A5BE-4ABA546B8BE1' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit'
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$add$os10.10$_AudioUnitCarbonViewSetEventListener', '$ld$add$os10.10$_AudioUnitRemovePropertyListener', 
                        '$ld$add$os10.10$_AudioUnitRemoveRenderNotification', '$ld$add$os10.10$_AudioUnitRenderSlice', 

@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage'
 current-version: 5
 compatibility-version: 1.0.1
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _AutoCropper, _CIAccordionFoldTransition, _CIAdditionCompositing, 
                        _CIAffineClamp, _CIAffineTile, _CIAffineTransform, _CIAreaAverage, 

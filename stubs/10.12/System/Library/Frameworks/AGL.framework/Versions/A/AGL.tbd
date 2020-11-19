@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 1847F191-5ADA-3D73-9FA3-45CCFD50F262', 'x86_64: 752FDB92-EF67-3D04-BF40-A352BF1075CF' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AGL.framework/Versions/A/AGL'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _aglChoosePixelFormat, _aglChoosePixelFormatCFM, _aglConfigure, 
                        _aglConfigureCFM, _aglCopyContext, _aglCreateContext, _aglCreateContextCFM, 

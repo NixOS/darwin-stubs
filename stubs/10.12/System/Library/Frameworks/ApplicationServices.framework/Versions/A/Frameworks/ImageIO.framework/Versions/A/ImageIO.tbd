@@ -4,7 +4,7 @@ uuids:           [ 'i386: 50C80120-22A1-3C0E-8AE5-A34142717417', 'x86_64: 7D6245
                    'x86_64h: E54ADBF0-6001-3DEB-AEB0-3F857A781E06' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO'
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ '$ld$install_name$os10.4$/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices', 
                        '$ld$install_name$os10.5$/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices', 

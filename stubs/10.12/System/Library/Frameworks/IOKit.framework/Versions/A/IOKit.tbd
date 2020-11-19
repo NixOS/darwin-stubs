@@ -4,7 +4,7 @@ uuids:           [ 'i386: BB7AF534-18E3-3EBB-9B00-3A8E2F4A63FA', 'x86_64: 7CE4C9
 platform:        macosx
 install-name:    '/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit'
 current-version: 275
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _IOConnectMethodScalarIScalarO, _IOConnectMethodScalarIStructureI, 
                        _IOConnectMethodScalarIStructureO, _IOConnectMethodStructureIStructureO, 

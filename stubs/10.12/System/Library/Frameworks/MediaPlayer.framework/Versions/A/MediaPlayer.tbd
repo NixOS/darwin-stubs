@@ -3,7 +3,7 @@ archs:           [ x86_64 ]
 uuids:           [ 'x86_64: 44C874ED-EE2E-376A-96DE-94187B7DDA0B' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _MPChangeLanguageOptionSettingFromMediaRemote, _MPChangeLanguageOptionSettingToMediaRemote, 
                        _MPErrorDomain, _MPLanguageOptionCharacteristicContainsOnlyForcedSubtitles, 

@@ -4,7 +4,7 @@ uuids:           [ 'i386: 50B7261F-3666-38E5-9824-F996426417C2', 'x86_64: 31CFBB
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting'
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _ASGetAppTerminology, _ASGetHandler, _ASGetProperty, _ASSetHandler, 
                        _ASSetProperty, _DisposeOSAActiveUPP, _DisposeOSACreateAppleEventUPP, 

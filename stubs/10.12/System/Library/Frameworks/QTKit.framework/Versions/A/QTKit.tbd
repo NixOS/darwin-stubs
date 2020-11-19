@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: EB2F55CB-7FDE-3521-B54A-A49F271E77FC', 'x86_64: 49F88771-52FE-3989-AAB7-10A7494C4419' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/QTKit.framework/Versions/A/QTKit'
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _CopyNSImageToGWorld, _QTAcceleratedDisplayMask, _QTCaptureDeviceLegacySequenceGrabberAttribute, 
                        _QTConvertImageConsumerAttributeToVisualContextAttribute, 

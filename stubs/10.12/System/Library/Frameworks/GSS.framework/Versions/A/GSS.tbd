@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 256987F7-ACFC-34B6-92E6-8E38E7B54482', 'x86_64: 6FADED0B-0425-3567-A75A-040C5A4638EB' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/GSS.framework/Versions/A/GSS'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _GSSCheckNTLMReflection, _GSSCreateCredentialFromUUID, _GSSCreateError, 
                        _GSSCreateName, _GSSCredCopyName, _GSSCredGetLifetime, _GSSCredentialCopyName, 

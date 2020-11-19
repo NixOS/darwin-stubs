@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: F69F2A98-4110-3F02-A9B9-475D6A5EF918' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication'
 current-version: 240.70.2
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _LAAvailableMechanisms, _LABootstrapSEP, _LAContextCreate, 
                        _LAContextGetTypeID, _LACopyACMContext, _LACopyExternalizedContext, 

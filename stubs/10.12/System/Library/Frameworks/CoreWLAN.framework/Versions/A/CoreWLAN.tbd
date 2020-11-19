@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 77ED2C61-9E8D-3D2D-AD3D-ED83EC89906C', 'x86_64: E47C0568-E37B-3052-9E77-F0F371DCDE7F' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _Apple80211APIErrorDomain, _CWAddNetworkProfile, _CWAddPasspointNetworkProfile, 
                        _CWAuthorizeRight, _CWBSSIDDidChangeNotification, _CWBaseStationPPPCallTypeKey, 

@@ -4,7 +4,7 @@ uuids:           [ 'i386: C0029306-BA63-318F-9C51-725DB1B74D88', 'x86_64: A95811
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AppleScriptObjC.framework/Versions/A/AppleScriptObjC'
 current-version: 32
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _BAFunctionInvocation._arg_types, _BAFunctionInvocation._arg_values, 
                        _BAFunctionInvocation._function, _BAFunctionInvocation._references, 

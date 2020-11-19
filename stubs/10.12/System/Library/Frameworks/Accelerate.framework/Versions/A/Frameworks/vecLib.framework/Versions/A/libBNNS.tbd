@@ -5,7 +5,7 @@ uuids:           [ 'i386: B0298D30-EC0B-340E-B7AB-906D9DC7D56F', 'x86_64: 26F322
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib'
 parent-umbrella: vecLib
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _BNNSFilterApply, _BNNSFilterApplyBatch, _BNNSFilterCreateConvolutionLayer, 
                        _BNNSFilterCreateFullyConnectedLayer, _BNNSFilterCreatePoolingLayer, 

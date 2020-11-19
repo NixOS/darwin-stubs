@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libcache.dylib'
 current-version: 79
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ __cache_handle_memory_pressure_event, _cache_create, _cache_destroy, 
                        _cache_get_and_retain, _cache_get_cost_hint, _cache_get_count_hint, 

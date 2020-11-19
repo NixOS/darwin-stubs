@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: 8550BD08-7D05-3AC4-A0CC-B67ECB2DE950' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts'
 current-version: 0
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _ACAccountCredentialsDidChangeNotification, _ACAccountPropertyAllowsInsecureAuthentication, 
                        _ACAccountPropertyAuthenticationScheme, _ACAccountPropertyAutodiscoverURL, 
