@@ -1,0 +1,51 @@
+# Adapted from the example workflow at
+# https://github.com/actions/upload-release-asset
+
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+name: Upload Release Asset
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [ '10.12' ]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create tarball
+        run: >
+          tar
+          --sort=name
+          --mtime="@$(git log -1 --format=%ct)"
+          --owner=0 --group=0 --numeric-owner
+          --pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime
+          -cf stubs-${{ matrix.version }}.tar.gz
+          -C stubs
+          ${{ matrix.version }}
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: ./stubs-${{ matrix.version }}.tar.gz
+          asset_name: ${{ matrix.version }}.tar.gz
+          asset_content_type: application/gzip
