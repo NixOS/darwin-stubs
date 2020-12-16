@@ -32,7 +32,8 @@ mkdir -p "$out"
   /usr/lib/libcupsimage.2.dylib \
   /usr/lib/libcupsmime.1.dylib \
   /usr/lib/libcupsppdc.1.dylib \
-  /usr/lib/libXplugin.1.dylib
+  /usr/lib/libXplugin.1.dylib \
+  /usr/lib/libsandbox.1.dylib
 
 @out@/libexec/frameworks-tbd.sh -s "$sysroot" -o "$out"
 
