@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 3FA355A2-A9A5-3787-BA8F-9245F9BB5880', 'x86_64: BCB78777-76F0-3CC1-8443-9E61AEF7EF63' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _CBCharacteristic._UUID, _CBCharacteristic._descriptors, _CBCharacteristic._handle, 
                        _CBCharacteristic._isBroadcasted, _CBCharacteristic._isNotifying, 

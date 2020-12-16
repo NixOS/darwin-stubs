@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: 0D7781CC-DE83-31EC-9285-AA8784CA8EB2' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit'
 current-version: 0
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _MKAddressStringForAddressDictionary, _MKAnnotationCalloutInfoDidChangeNotification, 
                        _MKAnnotationViewIntersectionArea, _MKAnnotationViewsIntersectionArea, 

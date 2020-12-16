@@ -4,7 +4,7 @@ uuids:           [ 'i386: B6982296-C740-3751-9567-CE417DDB4D21', 'x86_64: C66293
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/QuartzComposer'
 current-version: 168
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _GFList._count, _GFList._values, _GFNode._parent, _GFPort._flags, 
                        _QCArray._array, _QCArray._count, _QCArray._elementSize, _QCContext._iterationManager, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: DB13E95D-7C69-3022-B288-843AE90EA0E6', 'x86_64: 83877C1C-853A-39E9-A124-584D49C01FF4' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/ScreenSaver.framework/Versions/A/ScreenSaver'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _SSMobileMeWebGalleryAlbum._enabled, _SSMobileMeWebGalleryAlbum._feedURL, 
                        _SSMobileMeWebGalleryAlbum._memberName, _SSMobileMeWebGalleryAlbum._thumbnail, 

@@ -5,7 +5,7 @@ uuids:           [ 'i386: EA6A64B2-43CF-3F24-A141-1EE9052F6D84', 'x86_64: 4DF3C2
 platform:        macosx
 install-name:    '/usr/lib/libobjc.A.dylib'
 current-version: 228
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$hide$os10.0$.objc_class_name_NSObject', '$ld$hide$os10.1$.objc_class_name_NSObject', 
                        '$ld$hide$os10.2$.objc_class_name_NSObject', '$ld$hide$os10.3$.objc_class_name_NSObject', 

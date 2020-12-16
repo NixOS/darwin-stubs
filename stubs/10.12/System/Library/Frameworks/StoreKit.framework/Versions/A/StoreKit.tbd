@@ -4,7 +4,7 @@ uuids:           [ 'i386: 0E09A7DF-95BD-3390-AE48-E0304FA5D408', 'x86_64: A3111C
 platform:        macosx
 install-name:    '/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit'
 current-version: 379
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _SKPayment._internal, _SKPaymentTransactionInternal._UUID, 
                        _SKPaymentTransactionInternal._assets, _SKPaymentTransactionInternal._downloads, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 8545B9E0-2F91-3D9A-8958-B8877A361D16', 'x86_64: EB2577A4-DCDF-3FD1-B5FA-42A55653A74D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _COLOR_Y2R24, _COLOR_Y2R32, _COLOR_Y420uToUYVY_scalar, _COLOR_Y420uToY422, 
                        _DistributeBitStreamsToCodedVideoSegment, _FDCTWeightZigZag_FS, 

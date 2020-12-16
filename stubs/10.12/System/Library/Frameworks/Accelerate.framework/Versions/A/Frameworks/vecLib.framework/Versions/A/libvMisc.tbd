@@ -5,7 +5,7 @@ uuids:           [ 'i386: EDDD9229-B3E1-375A-8483-A2827DE14656', 'x86_64: F8770D
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib'
 current-version: 600.60.1
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _VVACOS, _VVACOSF, _VVACOSF_, _VVACOSH, _VVACOSHF, _VVACOSHF_, 
                        _VVACOSH_, _VVACOS_, _VVASIN, _VVASINF, _VVASINF_, _VVASINH, 

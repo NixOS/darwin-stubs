@@ -4,7 +4,7 @@ uuids:           [ 'i386: 3CE4F1DF-6E04-35FE-834C-F6F547C6EB49' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound'
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386 ]
     allowable-clients: [ QuickTime ]
     symbols:         [ _ClockRestartSound, _ClockUpdateSoundSamples, _CloseMixerSoundComponent, 

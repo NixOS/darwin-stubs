@@ -1,0 +1,33 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: F7109227-5C1B-376E-BCE5-4D7F5D787854', 'x86_64: B686BDA2-A162-3D70-9257-FEB0592DBD7E' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP'
+current-version: 78.2
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _NLLanguageIdentifierConsumeCharacters, _NLLanguageIdentifierConsumeString, 
+                       _NLLanguageIdentifierCreate, _NLLanguageIdentifierGetTopHypotheses, 
+                       _NLLanguageIdentifierGetTopHypothesis, _NLLanguageIdentifierGetTopLanguage, 
+                       _NLLanguageIdentifierGetTopLanguages, _NLLanguageIdentifierRelease, 
+                       _NLLanguageIdentifierReset, _NLLanguageIdentifierSetLanguageConstraints, 
+                       _NLLanguageIdentifierSetLanguageHints, _NLStringTokenizerAdvanceToNextToken, 
+                       _NLStringTokenizerCopyBestStringLanguage, _NLStringTokenizerCopyBestStringLanguageWithHints, 
+                       _NLStringTokenizerCopyCurrentTokenAttribute, _NLStringTokenizerCreate, 
+                       _NLStringTokenizerGetCurrentSubTokens, _NLStringTokenizerGetCurrentTokenRange, 
+                       _NLStringTokenizerGetTypeID, _NLStringTokenizerGoToTokenAtIndex, 
+                       _NLStringTokenizerSetString, _NLStringTokenizerSetStringWithOptions, 
+                       __NLSTEvaluatorAddString, __NLSTEvaluatorCreateLabelsForString, 
+                       __NLSTEvaluatorCreateWithModelFile, __NLSTEvaluatorFinalize, 
+                       __NLSTEvaluatorRelease, __NLSTFeatureCounterAddString, __NLSTFeatureCounterCreate, 
+                       __NLSTFeatureCounterRelease, __NLSTTrainerAddString, __NLSTTrainerCreate, 
+                       __NLSTTrainerRelease, __NLSTTrainerTrainAndWriteModelToFile, 
+                       __NLStringTokenizerCopyPossibleStringLanguages, __NLStringTokenizerCreateCurrentTokenLemma, 
+                       __NLStringTokenizerCreateNamePartsArrayWithString, __NLStringTokenizerCreateNamePartsArrayWithStringAsCompositeName, 
+                       __NLStringTokenizerCreatePossibleNamePartsArrayWithStringAsCompositeName, 
+                       __NLStringTokenizerGetCurrentTokenPartOfSpeech, __NLStringTokenizerGetDerivedTokens, 
+                       __NLStringTokenizerGetNextBestTokens, __NLStringTokenizerGetTokenizerAttribute, 
+                       __NLStringTokenizerSetLocale, __NLStringTokenizerSetMetadata, 
+                       __NLStringTokenizerSetTokenizerAttribute, __NLStringTokenizerTokenize, 
+                       __NLStringTokenizerTokenizeCompoundWord, __NLStringTokenizerTokenizeWithTranscriptions ]
+...

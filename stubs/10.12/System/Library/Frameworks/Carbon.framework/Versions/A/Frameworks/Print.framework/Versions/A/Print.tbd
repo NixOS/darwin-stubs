@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print'
 current-version: 267
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$hide$os10.10$_DisposePMDialogDoneUPP', '$ld$hide$os10.10$_DisposePMItemUPP', 
                        '$ld$hide$os10.10$_DisposePMPageSetupDialogInitUPP', '$ld$hide$os10.10$_DisposePMPrintDialogInitUPP', 

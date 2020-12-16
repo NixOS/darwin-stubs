@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libsystem_kernel.dylib'
 current-version: 3789.70.16
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ ___aio_suspend, ___close, ___fsync, ___msgrcv, ___msgsnd, 
                        ___poll, ___pread, ___pwrite, ___read, ___readv, ___sem_wait, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: A928083F-A0C7-31BE-9617-A6AC5F3B559F', 'x86_64: BF0EE575-BB7E-3BF9-9029-232B4ADC24E4' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _CTGlyphStorageInterface._absorbedCounts, _CTGlyphStorageInterface._advances, 
                        _CTGlyphStorageInterface._glyphCount, _CTGlyphStorageInterface._glyphs, 

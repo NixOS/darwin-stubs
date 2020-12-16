@@ -5,7 +5,7 @@ uuids:           [ 'i386: 7B0881AC-2D51-3B61-9E9F-A5BF61626B13', 'x86_64: 4C535C
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage'
 current-version: 331.5
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _Init_vImage, _SetvImageThreadCount, _SetvImageThreadState, 
                        _SetvImageVectorAvailable, __vImage_TempBuffer_Enable_Legacy, 

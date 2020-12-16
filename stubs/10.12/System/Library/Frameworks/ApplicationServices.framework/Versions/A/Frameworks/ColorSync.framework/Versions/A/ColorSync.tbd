@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync'
 current-version: 4.7
 parent-umbrella: ApplicationServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _CMActivateCurrentWorkflow, _CMActivateWorkflow, _CMConvertFixedXYZToXYZ, 
                        _CMConvertHLSToRGB, _CMConvertHSVToRGB, _CMConvertLabToXYZ, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 6AAC63BE-A4DD-3ED8-943C-8EA524802E8B', 'x86_64: 365342ED-7A1A-3C75-AE60-90764E96034C' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework/Versions/A/QuartzFilters'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _QFilter.mActionCell, _QFilter.mComponents, _QFilter.mInfo, 
                        _QFilter.mOwner, _QFilterActionButton.actionCell, _QFilterActionMenu.AssignProfileMenuItem, 

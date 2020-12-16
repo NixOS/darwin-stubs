@@ -4,7 +4,7 @@ uuids:           [ 'i386: 1D6C82E5-CE4F-311C-B8D7-C0B5B6D3E114', 'x86_64: 01518C
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox'
 current-version: 492
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$hide$os10.10$_AudioUnitCarbonViewSetEventListener', '$ld$hide$os10.10$_AudioUnitRemovePropertyListener', 
                        '$ld$hide$os10.10$_AudioUnitRemoveRenderNotification', '$ld$hide$os10.10$_AudioUnitRenderSlice', 

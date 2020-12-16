@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 28392C3E-5C46-3D3E-8C6F-6E332EE3F4DE', 'x86_64: 6C2F03CA-0731-3CB1-82A0-2E056AFDA529' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _AppleOptions_82795B5D88.appleDeviceSetting, _AppleOptions_82795B5D88.appleOptionsViewPlaceholder, 
                        _AppleOptions_82795B5D88.appleOptionsWindow, _AppleOptions_82795B5D88.checkBoxEnableInEarDetection, 

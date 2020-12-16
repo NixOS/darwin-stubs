@@ -1,6 +1,6 @@
 { pkgs ? import <nixpkgs> {} }:
 let
-  drv = { stdenv, lib, makeWrapper, jq, yq, ruby, gnused }: stdenv.mkDerivation {
+  drv = { stdenv, lib, makeWrapper, jq, yq, ruby, gnused, coreutils }: stdenv.mkDerivation {
     name = "generate-all";
     src = lib.sourceFilesBySuffices ./. [ ".sh" ".rb" ".json" ];
 
@@ -16,12 +16,9 @@ let
     installPhase = ''
       mkdir -p $out/{libexec,share}
       cp *.rb *.sh $out/libexec
-      cp *.json    $out/share
 
       makeWrapper $out/libexec/generate-all.sh $out/bin/generate-all \
-        --prefix PATH : ${lib.makeBinPath [ jq yq gnused ]}
-
-      ln -s $out/libexec/update-framework-names.sh $out/bin/update-framework-names
+        --prefix PATH : ${lib.makeBinPath [ jq yq gnused coreutils ]}
     '';
   };
 in

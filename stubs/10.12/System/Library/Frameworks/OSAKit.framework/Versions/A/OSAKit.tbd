@@ -4,7 +4,7 @@ uuids:           [ 'i386: 3CDC20D0-F831-353B-9AFE-B3BFD3B38939', 'x86_64: 06120E
 platform:        macosx
 install-name:    '/System/Library/Frameworks/OSAKit.framework/Versions/A/OSAKit'
 current-version: 105
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _OSAActiveProc._activeProc, _OSAActiveProc._oldActiveProc, 
                        _OSAActiveProc._oldRefCon, _OSAActiveProc._scriptView, _OSABrowserCell._definition, 

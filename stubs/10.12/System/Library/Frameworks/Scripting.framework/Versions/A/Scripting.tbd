@@ -4,7 +4,7 @@ uuids:           [ 'i386: C19E90A3-D17F-3037-B815-001CE91803E7' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Scripting.framework/Versions/A/Scripting'
 current-version: 37
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _NSScriptingVersionNumber, _NSScriptingVersionString ]
 ...

@@ -5,7 +5,7 @@ uuids:           [ 'i386: 4042DA23-23A7-3BD2-8AB7-9D115D8082D0', 'x86_64: 0BDCF6
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib'
 parent-umbrella: vecLib
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _sparse_commit, _sparse_elementwise_norm_double, _sparse_elementwise_norm_float, 
                        _sparse_extract_block_double, _sparse_extract_block_float, 

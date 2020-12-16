@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices'
 current-version: 593
 parent-umbrella: ApplicationServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$hide$os10.4$_HIShapeContainsPoint', '$ld$hide$os10.4$_HIShapeCreateCopy', 
                        '$ld$hide$os10.4$_HIShapeCreateDifference', '$ld$hide$os10.4$_HIShapeCreateEmpty', 

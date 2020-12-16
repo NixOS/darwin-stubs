@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: F919123A-3162-30BB-A293-45D6EDCCAEAB', 'x86_64: E78463D3-73B6-3002-BD71-9CC1D6722968' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _clBuildProgram, _clCompileProgram, _clCreateBuffer, _clCreateCommandQueue, 
                        _clCreateCommandQueueWithPropertiesAPPLE, _clCreateContext, 

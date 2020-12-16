@@ -4,7 +4,7 @@ uuids:           [ 'i386: 810116E2-8AE9-37A6-93A5-51247C3FCE4C', 'x86_64: 3BD7BA
 platform:        macosx
 install-name:    '/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook'
 current-version: 0
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _QLServerSetup32bitServerWithName, __QLPreviewRequestForward32, 
                        __QLThumbnailRequestForward32, __Z18QLTryCatchAndCrashU13block_pointerFvvE, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: BEF4CB96-9840-3FA6-BEAB-4F44F64BA045', 'x86_64: BB80E4F8-279F-312B-A28B-D28E54370A72' ]
 platform:        macosx
 install-name:    '/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _GKPrimaryCredentialDidChangeNotification ]
     objc-classes:    [ _GKAuthenticationMachine, _GKPlayerCredentialController ]

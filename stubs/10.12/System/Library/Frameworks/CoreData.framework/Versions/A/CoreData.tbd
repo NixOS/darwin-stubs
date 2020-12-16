@@ -5,7 +5,7 @@ uuids:           [ 'i386: C194ADF9-DC92-38FA-B078-E52AD65B9618', 'x86_64: 0C9D9D
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData'
 current-version: 754.2
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _NSAddedPersistentStoresKey, _NSAffectedObjectsErrorKey, _NSAffectedStoresErrorKey, 
                        _NSAutomaticMigrationUseDocumentDestinationOption, _NSBinaryExternalRecordType, 

@@ -4,7 +4,7 @@ uuids:           [ 'i386: 7459A22A-AFD9-3F08-BB98-FB1302CA0523', 'x86_64: 005E8C
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Security.framework/Versions/A/Security'
 current-version: 57740.60.18
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _AuthorizationCopyInfo, _AuthorizationCopyPrivilegedReference, 
                        _AuthorizationCopyRights, _AuthorizationCopyRightsAsync, _AuthorizationCreate, 

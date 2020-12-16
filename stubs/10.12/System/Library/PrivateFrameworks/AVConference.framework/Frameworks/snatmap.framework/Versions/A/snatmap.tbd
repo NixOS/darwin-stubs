@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 9C4833E2-E381-3A09-94F6-30430C338BB5', 'x86_64: D70EBAC6-597C-35EE-BEFD-D3D99AAD8FBB' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/snatmap.framework/Versions/A/snatmap'
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _GetSNATMAPServer, _MakeSNATMAPRequest, _ProcessSNATMAPResponse, 
+                       _SNATMAP_getPortMapping, _SNATMAP_heartbeat, _SNATMAP_updateExternalIPPortInfo ]
+...

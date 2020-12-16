@@ -5,7 +5,7 @@ uuids:           [ 'i386: 27276715-03C4-3DB5-8791-EC7F59847C0B', 'x86_64: F46DF4
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib'
 current-version: 600.60.1
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _conv, _convD, _create_fftsetup, _create_fftsetupD, _ctoz, 
                        _ctozD, _destroy_fftsetup, _destroy_fftsetupD, _dotpr, _dotprD, 

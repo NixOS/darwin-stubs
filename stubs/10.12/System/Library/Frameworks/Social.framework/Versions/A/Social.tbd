@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: 6FAB064C-EAA9-32A1-837C-57F1DDF47FD4' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Social.framework/Versions/A/Social'
 current-version: 559.2
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _CPFileBuildDirectoriesToPath, _PushNotificationDidChangeEventKey_char, 
                        _PushNotificationForFacebookDidChangeEvent_char, _PushNotificationForSinaWeiboDidChangeEvent_char, 

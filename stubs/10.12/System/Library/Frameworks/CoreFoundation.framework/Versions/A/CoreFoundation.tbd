@@ -6,7 +6,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation'
 current-version: 1349.8
 compatibility-version: 150
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ '$ld$add$os10.5$.objc_class_name_NSObject', '$ld$add$os10.6$.objc_class_name_NSObject', 
                        '$ld$add$os10.7$.objc_class_name_NSObject', '$ld$hide$os10.4$.objc_class_name_NSArray', 

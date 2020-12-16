@@ -1,0 +1,7 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 7BB411D7-9D2B-3A6B-B2EB-A199353F87CE' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/XcodeExtension.framework/Versions/A/XcodeExtension'
+current-version: 11007
+...

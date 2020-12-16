@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 259F8E9D-F47C-3653-88D8-D4599AFBE9F4', 'x86_64: F3770D29-C882-38D1-8EE9-7486D66552F0' ]
 platform:        macosx
 install-name:    '/usr/lib/libcupsppdc.1.dylib'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ __ZN10ppdcChoiceC1EPKcS1_S1_, __ZN10ppdcChoiceC2EPKcS1_S1_, 
                        __ZN10ppdcChoiceD0Ev, __ZN10ppdcChoiceD1Ev, __ZN10ppdcChoiceD2Ev, 

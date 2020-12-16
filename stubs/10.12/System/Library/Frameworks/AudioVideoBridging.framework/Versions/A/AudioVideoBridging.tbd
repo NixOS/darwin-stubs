@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 6DF271A0-A5A9-3F3F-9729-0836E544A2C7', 'x86_64: 90DFEC17-1857-3C9E-BDFC-41AFE115296A' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AudioVideoBridging.framework/Versions/A/AudioVideoBridging'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-classes:    [ _AVB17221AEMCoreAudioDeviceModelMaker, _AVBAudioDriverManager ]
     objc-ivars:      [ _AVB17221ACMPPendingResponse.completionHandler, _AVB17221ACMPPendingResponse.message, 

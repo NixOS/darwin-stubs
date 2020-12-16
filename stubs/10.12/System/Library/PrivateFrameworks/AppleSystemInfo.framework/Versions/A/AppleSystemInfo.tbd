@@ -1,0 +1,17 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: C5301CA4-BF17-3F68-93EB-E6FB7BD1FF6D', 'x86_64: 42A1731A-A576-307A-B07C-9F8F64696CB7' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo'
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _ASI_BusSpeedInHz, _ASI_CPUSpeedInHz, _ASI_CopyBusSpeedDescription, 
+                       _ASI_CopyCPUDescription, _ASI_CopyCPUKind, _ASI_CopyComputerModelName, 
+                       _ASI_CopyCurrentBusSpeedDescription, _ASI_CopyCurrentCPUDescription, 
+                       _ASI_CopyCurrentRAMDescription, _ASI_CopyCurrentRAMDescriptionWithType, 
+                       _ASI_CopyDiskSizeDescription, _ASI_CopyFormattedSerialNumber, 
+                       _ASI_CopyHostUUID, _ASI_CopyMachineConfigurationCode, _ASI_CopyRAMDescription, 
+                       _ASI_IsPlatformFeatureEnabled, _ASI_NumberOfCPUs, _ASI_PhysicalMemorySize, 
+                       _CopyIOPlatformSerialNumberString, _CopyPropertyAsData, _GetIOPlatformFeature, 
+                       _PlatformOverideExistsAndIsSet ]
+...

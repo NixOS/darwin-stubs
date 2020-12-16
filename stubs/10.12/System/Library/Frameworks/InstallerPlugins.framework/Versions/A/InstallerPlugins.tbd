@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: E48E2809-4BC1-3053-AC5A-35AF7CA78436' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/InstallerPlugins.framework/Versions/A/InstallerPlugins'
 current-version: 815
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _IS_InstallerSectionClosing_Notification, _InstallerSection_IsRunningFromInstallMedia, 
                        _InstallerState_ChoiceDictionaries, _InstallerState_Choice_CustomLocation, 

@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 87B453B0-8241-31EE-98B6-750AB1F132A3' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/Versions/A/DiagnosticExtensions'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _DELoggingInit, _DiagnosticExtensionsVersionNumber, _DiagnosticExtensionsVersionString, 
+                       _pgrep, _signal_USR2 ]
+    objc-classes:    [ _DEAttachmentGroup, _DEAttachmentItem, _DEExtension, _DEExtensionContext, 
+                       _DEExtensionHostContext, _DEExtensionManager, _DEExtensionProvider, 
+                       _DELogMover, _DEManagedDefaults, _DEUtils ]
+...

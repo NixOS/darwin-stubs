@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/DVDPlayback.framework/Versions/A/DVDPlayback'
 current-version: 5960
 compatibility-version: 5000
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _DVDDoMenuClick, _DVDDoMenuMouseOver, _DVDGetNativeVideoCropRect, 
                        _DVDGetVideoBounds, _DVDGetVideoDevice, _DVDGetVideoDeviceCapabilities, 

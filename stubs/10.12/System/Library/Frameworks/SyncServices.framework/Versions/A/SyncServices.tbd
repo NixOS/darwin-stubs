@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/SyncServices.framework/Versions/A/SyncServices'
 current-version: 726
 compatibility-version: 48
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ '_OBJC_EHTYPE_$_ISDException' ]
     objc-ivars:      [ _IDMapping._globalId, _IDMapping._localId, _ISDAdminDatabase._dataManager, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: FABB4E0C-9103-3F42-B4D8-DC796B239268', 'x86_64: A64E9A01-3F6E-36EA-9C10-88C564A68C9D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _ODContextGetTypeID, _ODConvertToLegacyErrorCode, _ODNodeAddAccountPolicy, 
                        _ODNodeCopyAccountPolicies, _ODNodeCopyCredentials, _ODNodeCopyDetails, 

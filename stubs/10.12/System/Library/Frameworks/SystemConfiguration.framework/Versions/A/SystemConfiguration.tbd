@@ -4,7 +4,7 @@ uuids:           [ 'i386: E509FFA6-A1FE-38A6-9F94-CFF731B96B5C', 'x86_64: 3FFD39
 platform:        macosx
 install-name:    '/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration'
 current-version: 888.60.2
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _CNCopySupportedInterfaces, _CNMarkPortalOffline, _CNMarkPortalOnline, 
                        _CNSetSupportedSSIDs, _DHCPClientPreferencesCopyApplicationOptions, 

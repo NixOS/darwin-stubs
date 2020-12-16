@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libsystem_dnssd.dylib'
 current-version: 765.50.9
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _ConvertHeaderBytes, _DNSServiceAddRecord, _DNSServiceBrowse, 
                        _DNSServiceBrowserCreate, _DNSServiceConstructFullName, _DNSServiceCreateConnection, 

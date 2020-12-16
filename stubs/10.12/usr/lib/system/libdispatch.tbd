@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libdispatch.dylib'
 current-version: 703.50.37
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _OS_dispatch_queue_concurrent, _OS_dispatch_queue_main, _OS_dispatch_queue_mgr, 
                        _OS_dispatch_queue_root, _OS_dispatch_queue_runloop, _OS_dispatch_queue_serial, 

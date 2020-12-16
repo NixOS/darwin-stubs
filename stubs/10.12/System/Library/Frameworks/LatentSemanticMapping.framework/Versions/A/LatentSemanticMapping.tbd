@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 32F776A7-050E-34A1-8670-628E76B520E0', 'x86_64: E68CF07A-6EFB-34E6-B103-BEBE4AD57521' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/LatentSemanticMapping.framework/Versions/A/LatentSemanticMapping'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _LSMMapAddCategory, _LSMMapAddText, _LSMMapAddTextWithWeight, 
                        _LSMMapApplyClusters, _LSMMapCompile, _LSMMapCompileWithBlock, 

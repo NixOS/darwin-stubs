@@ -4,7 +4,7 @@ uuids:           [ 'i386: BB6FD97A-74DF-32F2-91D4-C15DBA542930', 'x86_64: AE2789
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Collaboration.framework/Versions/A/Collaboration'
 current-version: 78
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _CBIdentity._reserved, _CBIdentityQuery._csQuery, _CBIdentityQuery._delegate, 
                        _CBIdentityQuery._identities, _CBIdentityQuery._showsHiddenIdentities, 

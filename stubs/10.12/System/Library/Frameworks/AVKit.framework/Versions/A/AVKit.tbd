@@ -3,7 +3,7 @@ archs:           [ x86_64 ]
 uuids:           [ 'x86_64: 1A0929CC-BD23-377D-8A22-6C092409AA9D' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _AVAddAudibleMediaSelectionOptionsToMenu, _AVAddLegibleMediaSelectionOptionsToMenu, 
                        _AVAssetSlowMotionTimeRangeFromNormalizedSlowMotionTimeRange, 

@@ -4,7 +4,7 @@ uuids:           [ 'i386: CE948963-3D58-3AAB-BB7D-74B57672DFF5', 'x86_64: 5E2D1F
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreMIDI.framework/Versions/A/CoreMIDI'
 current-version: 69
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _MIDIClientCreate, _MIDIClientCreateWithBlock, _MIDIClientDispose, 
                        _MIDIConfigCheckVirginState, _MIDIConfigDelete, _MIDIConfigDuplicate, 

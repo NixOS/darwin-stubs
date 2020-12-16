@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: FD017807-7234-3633-9B06-AD7681F4F6D3', 'x86_64: 9C547565-CBAA-3ACB-A3F6-1366A0DCDCB4' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework/Versions/A/ImageKit'
-exports:         
+exports:
   - archs:           [ i386 ]
     objc-classes:    [ _GPSTextFieldCell, _IKCButton, _IKCameraBackgroundView, _IKCameraDeviceViewHandler, 
                        _IKCameraDeviceViewHandlerIB, _IKCameraIconBrowserCell, _IKCameraIconView, 

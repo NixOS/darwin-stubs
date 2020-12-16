@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/libcups.2.dylib'
 current-version: 2.12
 compatibility-version: 2
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ __cupsAppleCopyDefaultPaperID, __cupsAppleCopyDefaultPrinter, 
                        __cupsAppleGetUseLastPrinter, __cupsAppleLanguage, __cupsAppleSetDefaultPaperID, 

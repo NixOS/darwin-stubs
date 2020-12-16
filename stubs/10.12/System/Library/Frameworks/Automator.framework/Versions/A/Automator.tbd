@@ -4,7 +4,7 @@ uuids:           [ 'i386: 5016FB55-25EE-3726-A3D9-F00EC2D82CE8', 'x86_64: 6FBD31
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Automator.framework/Versions/A/Automator'
 current-version: 0
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _AMActionConnector._conversionError, _AMActionConnector._conversions, 
                        _AMActionConnector._pointA, _AMActionConnector._pointB, _AMActionConnector._runtimePointB, 

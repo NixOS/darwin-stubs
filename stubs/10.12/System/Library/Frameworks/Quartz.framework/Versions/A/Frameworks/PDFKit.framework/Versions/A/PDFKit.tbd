@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: F840178D-4C29-3EE1-A71B-9741E7BFB7BD', 'x86_64: BE82F14C-B20C-3771-B16C-F0723F6552AD' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Versions/A/PDFKit'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-ivars:      [ _DisplayList.displayList, _DisplayList.page, _DisplayListPoolPrivate.activePageIndex, 
                        _DisplayListPoolPrivate.displayLists, _DisplayListPoolPrivate.requestQueue, 

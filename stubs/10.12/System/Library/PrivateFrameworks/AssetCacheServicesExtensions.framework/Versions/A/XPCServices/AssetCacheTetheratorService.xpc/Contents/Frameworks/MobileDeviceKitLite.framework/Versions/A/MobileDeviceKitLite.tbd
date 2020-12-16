@@ -1,0 +1,27 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 1D95F608-17AC-3B53-9A54-1C190EBB94F3' ]
+platform:        macosx
+install-name:    '@rpath/MobileDeviceKitLite.framework/Versions/A/MobileDeviceKitLite'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _MDKBackupDisplayNameKey, _MDKBackupInstalledApplicationsKey, 
+                       _MDKBackupIsEncryptedKey, _MDKBackupPathKey, _MDKBackupProductTypeKey, 
+                       _MDKBackupProductVersionKey, _MDKBackupSourceIdentifierKey, 
+                       _MDKBackupTargetIdentifierKey, _MDKErrorWithCodeAndUserInfo, 
+                       _MDKLastBackupDateKey, _MDKMobileSyncErrorWithCode, _MDKRestorableDeviceLogTypeDevice, 
+                       _MDKRestorableDeviceLogTypeHost, _MDKRestorableDeviceLogTypeSerial, 
+                       _MobileDeviceKitLiteVersionNumber, _MobileDeviceKitLiteVersionString ]
+    objc-classes:    [ _MDKAFCFileDescriptor, _MDKAFCGetConnectionInfoOperation, 
+                       _MDKAFCGetDeviceInfoOperation, _MDKAFCGetFileHashOperation, 
+                       _MDKAFCGetFileInfoOperation, _MDKAFCGetSizeOfPathContentsOperation, 
+                       _MDKAFCLinkPathOperation, _MDKAFCMakeDirectoryOperation, _MDKAFCOpenFileOperation, 
+                       _MDKAFCOperation, _MDKAFCReadDirectoryOperation, _MDKAFCRemovePathOperation, 
+                       _MDKAFCRenamePathOperation, _MDKAFCService, _MDKAFCSetConnectionOptionsOperation, 
+                       _MDKAFCSetModTimeForPathOperation, _MDKManagedConfigService, 
+                       _MDKMobileDevice, _MDKMobileDeviceNotifier, _MDKMobileInstallService, 
+                       _MDKMobileProvisioningService, _MDKMobileSync, _MDKNotificationService, 
+                       _MDKProvisioningProfile, _MDKRestorableBuild, _MDKRestorableDevice, 
+                       _MDKRestorableDeviceNotifier, _MDKServiceConnection, _MDKSpringBoardService, 
+                       _MDKSyslogRelayService, __MDKLocalizationHelper, __MDKNotificationServiceHelper ]
+...

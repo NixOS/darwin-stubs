@@ -6,7 +6,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics'
 current-version: 1070.22
 compatibility-version: 64
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _CGLayerCompositeInit, _CGSCopyWindowOpaqueShape, _CGSGetClientWindowCount, 
                        _CGSGetClientWindowList, _CGSGetSpecifiedWindowShape, _CGSGetWindowDirtyRegion, 

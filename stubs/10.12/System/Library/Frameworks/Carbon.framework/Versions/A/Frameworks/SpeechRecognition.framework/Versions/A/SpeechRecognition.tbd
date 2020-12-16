@@ -4,7 +4,7 @@ uuids:           [ 'i386: C97F9B27-4461-37B3-AAD2-8A76B9E375BE', 'x86_64: 082895
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition'
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     allowable-clients: [ AppKit, LatentSemanticMapping ]
     symbols:         [ _DisposeSRCallBackUPP, _InvokeSRCallBackUPP, _NewSRCallBackUPP, 

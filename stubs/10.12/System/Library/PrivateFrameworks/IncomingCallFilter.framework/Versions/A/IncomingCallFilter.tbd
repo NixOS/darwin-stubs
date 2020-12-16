@@ -1,0 +1,16 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 4820E00E-5786-3C3C-A803-CEF308BBC699', 'x86_64: 4CEF7644-A1E3-3397-8C3C-409DEC0E6ABF' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/IncomingCallFilter.framework/Versions/A/IncomingCallFilter'
+current-version: 800
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _ICFCallProviderShouldAllowIncomingCall, _ICFCallProviderShouldAllowIncomingCallWithQueue, 
+                       _ICFRegisterCallFilterBlockWithIdentifier, _ICFRegisterCallFilterResultBlockWithIdentifier, 
+                       _ICFServiceIdentifierFaceTime, _ICFServiceIdentifierFaceTimeAudio, 
+                       _ICFServiceIdentifierTelephony, _ICFServiceIdentifierTelephonyRelay, 
+                       _ICFUnknownID, _ICFUnregisterCallFilterBlockWithIdentifier, 
+                       _ICFUnregisterCallFilterResultBlockWithIdentifier ]
+    objc-classes:    [ _ICFCallServer ]
+...

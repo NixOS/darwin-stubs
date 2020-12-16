@@ -4,7 +4,7 @@ uuids:           [ 'i386: 814835EE-F034-37D2-8FCC-217A8A3C4374', 'x86_64: 369D02
 platform:        macosx
 install-name:    '/usr/lib/system/libsystem_network.dylib'
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _kNetworkConfigPersistentInterfaceNoGuidance, _network_config_cellular_blocked_observer_cancel, 
                        _network_config_cellular_blocked_observer_create, _network_config_cellular_failed_observer_create, 

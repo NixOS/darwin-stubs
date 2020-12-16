@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE'
 current-version: 712.5
 parent-umbrella: CoreServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _DisposeAECoerceDescUPP, _DisposeAECoercePtrUPP, _DisposeAEDisposeExternalUPP, 
                        _DisposeAEEventHandlerUPP, _DisposeOSLAccessorUPP, _DisposeOSLAdjustMarksUPP, 

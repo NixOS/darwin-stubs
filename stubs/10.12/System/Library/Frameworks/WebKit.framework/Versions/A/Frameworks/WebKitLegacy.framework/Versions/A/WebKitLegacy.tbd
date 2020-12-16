@@ -4,7 +4,7 @@ uuids:           [ 'i386: 02E860C3-9BC6-3CC5-9C83-45C73E84030E', 'x86_64: 8C2FFE
 platform:        macosx
 install-name:    '/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy'
 current-version: 603.3.8
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _HIWebViewCreate, _HIWebViewGetWebView, _WebConvertNSImageToCGImageRef, 
                        _WebInitForCarbon ]

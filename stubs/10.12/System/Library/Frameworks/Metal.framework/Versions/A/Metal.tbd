@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: F404C8E3-2A9C-3586-84E0-655AD477851D', 'x86_64: E3618B54-C728-34CA-9E8A-9BD33A295D31' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Metal.framework/Versions/A/Metal'
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ __MTLCopyAllDevices, __MTLCreateSystemDefaultDevice ]
     objc-classes:    [ _MTLArgumentInternal, _MTLArrayTypeInternal, _MTLAttributeDescriptorArrayInternal, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: ADE9E3C9-5AF0-37D8-A594-58F3EEA4BDF7', 'x86_64: CFFA9906-6873-3B22-AF13-5780D2E857EB' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/InputMethodKit.framework/Versions/A/InputMethodKit'
-exports:         
+exports:
   - archs:           [ x86_64 ]
     objc-classes:    [ _IMKExtensionHostContext, _IMKExtensionIM, _IMKExtensionMainThreadInit, 
                        _IMKExtensionServiceContext ]

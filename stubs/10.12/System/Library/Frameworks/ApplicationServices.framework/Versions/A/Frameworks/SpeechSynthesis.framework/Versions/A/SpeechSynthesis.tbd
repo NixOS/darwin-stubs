@@ -4,7 +4,7 @@ uuids:           [ 'i386: D5D87F3A-3105-34F1-82B9-59E8CE4E9D49', 'x86_64: 7853EF
 platform:        macosx
 install-name:    '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis'
 parent-umbrella: ApplicationServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _DisposeSpeechDoneUPP, _DisposeSpeechErrorUPP, _DisposeSpeechPhonemeUPP, 
                        _DisposeSpeechSyncUPP, _DisposeSpeechTextDoneUPP, _DisposeSpeechWordUPP, 

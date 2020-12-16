@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: E0ED3A1A-D11D-3870-8B33-8142B2362099' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/CoreNameParser.framework/Versions/A/CoreNameParser'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _CoreNameParserVersionNumber, _CoreNameParserVersionString, 
+                       __NPCollapseWhitespaceAndStrip, __NPRemoveAppSignature, __NPRemoveEmojis, 
+                       __NPRemoveParenthesisBracketsAndInside, __NPStripDiatritics, 
+                       __NPStripQuotationMarks, __NPTokenizeName, __NPTrimNonLetters, 
+                       _charSetWithEndpoints ]
+    objc-classes:    [ _NPComponentSequence, _NPHMMClassifier, _NPNameParser ]
+...

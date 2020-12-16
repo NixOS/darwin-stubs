@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 151603A9-9D62-3243-913E-392344F969BC', 'x86_64: 03F2B863-BF99-36DF-9A14-1DB534A289F3' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/CoreMediaIO'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _CMIODeviceProcessAVCCommand, _CMIODeviceProcessRS422Command, 
                        _CMIODeviceStartStream, _CMIODeviceStopStream, _CMIOFileWritingControlTokenAllVolumesAreOutOfDiskSpace, 

@@ -1,0 +1,24 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 1DC22CBD-6C6B-3E8B-9BAE-42B8AE123DA0' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/DuetActivityScheduler.framework/Versions/A/DuetActivityScheduler'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _DuetActivitySchedulerVersionNumber, _DuetActivitySchedulerVersionString, 
+                       __DASActivityDurationInterminable, __DASActivityDurationLong, 
+                       __DASActivityDurationModerate, __DASActivityDurationShort, 
+                       __DASActivityDurationVeryLong, __DASActivityDurationVeryShort, 
+                       __DASActivityTransferSizeGigantic, __DASActivityTransferSizeLarge, 
+                       __DASActivityTransferSizeModerate, __DASActivityTransferSizeSmall, 
+                       __DASActivityTransferSizeVeryLarge, __DASActivityTransferSizeVerySmall, 
+                       __DASBudgetDictionaryKey, __DASDaemonServiceName, __DASLaunchOptionsNSURLSession, 
+                       __DASLaunchReasonApplicationSnapshot, __DASLaunchReasonNSURLSessionAuthorizationRequired, 
+                       __DASLaunchReasonNSURLSessionComplete, __DASLaunchReasonWatchConnectivityPendingData, 
+                       __DASSchedulingPriorityBackground, __DASSchedulingPriorityDefault, 
+                       __DASSchedulingPriorityMaintenance, __DASSchedulingPriorityUserInitiated, 
+                       __DASSchedulingPriorityUserInitiatedOvercommit, __DASSchedulingPriorityUtility, 
+                       _kNWEndpointKey, _kNWParametersKey ]
+    objc-classes:    [ __DASActivity, __DASActivityGroup, __DASFileProtection, __DASScheduler, 
+                       __DASStrings, __DASSubmissionRateLimiter ]
+...

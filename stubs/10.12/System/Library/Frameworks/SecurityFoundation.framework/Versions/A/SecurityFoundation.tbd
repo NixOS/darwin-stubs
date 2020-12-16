@@ -4,7 +4,7 @@ uuids:           [ 'i386: EC239EAC-8801-38BA-BE77-FC7B3AC6720A', 'x86_64: 15C539
 platform:        macosx
 install-name:    '/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation'
 current-version: 55132.50.7
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ '$ld$hide$os10.3$.objc_class_name_SFCertificateData', '$ld$hide$os10.4$.objc_class_name_SFCertificateData', 
                        '$ld$hide$os10.5$.objc_class_name_SFCertificateData', '$ld$hide$os10.5$_OBJC_CLASS_$_SFCertificateData', 

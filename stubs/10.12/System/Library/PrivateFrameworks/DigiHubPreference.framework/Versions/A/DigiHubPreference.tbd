@@ -1,0 +1,22 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 934EA8B0-62ED-339E-8161-4CFC1578924B', 'x86_64: AE528A32-9737-39C4-B750-6F839B8B5106' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/DigiHubPreference.framework/Versions/A/DigiHubPreference'
+exports:
+  - archs:           [ x86_64 ]
+    objc-ivars:      [ _DHOptionsPanelController._panel, _DigiActionTableColumn._dataCells, 
+                       _DigiHubOptionsPanel._didEndSelector, _DigiHubOptionsPanel._performAtLogin, 
+                       _DigiHubOptionsPanel._performCheckbox, _DigiHubOptionsPanel._savedDelegate, 
+                       _DigiHubPrefPane._bundleIDMapper, _DigiHubPrefPane._currentPopupForPanel, 
+                       _DigiHubPrefPane._events, _DigiHubPrefPane._frameworkBundle, 
+                       _DigiHubPrefPane._removeButton, _DigiHubPrefPane._specificActionCells, 
+                       _DigiHubPrefPane._specificItems, _DigiHubPrefPane._specificTableView, 
+                       _DragToPopUpButton._dropContextData, _DragToPopUpButton._dropDelegate, 
+                       _DragToPopUpButton._dropSelector ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _lgDefaultActions ]
+    objc-classes:    [ _DHNameTextCell, _DHOptionsPanelController, _DigiActionTableColumn, 
+                       _DigiHubOptionsPanel, _DigiHubPref, _DigiHubPrefPane, _DragToPopUpButton, 
+                       _SpecificPopUpButtonCell ]
+...

@@ -4,7 +4,7 @@ uuids:           [ 'i386: 26817567-717B-3837-904B-B8B2E9DC937C', 'x86_64: B1A930
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help'
 parent-umbrella: Carbon
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     allowable-clients: [ PrintingUI ]
     symbols:         [ _AHGotoApplicationHelp, _AHGotoMainTOC, _AHGotoPage, _AHLookupAnchor, 

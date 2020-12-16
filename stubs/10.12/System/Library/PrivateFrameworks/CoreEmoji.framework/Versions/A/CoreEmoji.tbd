@@ -1,0 +1,23 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: EE19390D-6C78-3771-91F8-265CE0D70D71', 'x86_64: E9A28301-2D79-3A97-A046-028258A6ABE5' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji'
+current-version: 40.3.3
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _CEMCopyEmojiTokens, _CEMCreateEmojiCharacterSet, _CEMCreateEmojiLocaleData, 
+                       _CEMEmojiLocaleDataCopyCommonEmojiTokens, _CEMEmojiLocaleDataCreateEmojiTokensForString, 
+                       _CEMEmojiLocaleDataEnumerateSearchResultsInStringWithBlock, 
+                       _CEMEmojiLocaleDataGetLocaleIdentifier, _CEMEmojiTokenCopyName, 
+                       _CEMEmojiTokenCopyRelatedEmoji, _CEMEmojiTokenCreateCopyRemovingModifiers, 
+                       _CEMEmojiTokenCreatePresentationVariant, _CEMEmojiTokenCreateSkinToneVariant, 
+                       _CEMEmojiTokenCreateWithIndex, _CEMEmojiTokenCreateWithLongCharacter, 
+                       _CEMEmojiTokenCreateWithString, _CEMEmojiTokenGetIndex, _CEMEmojiTokenGetLocaleData, 
+                       _CEMEmojiTokenGetPresentationStyle, _CEMEmojiTokenGetSkinTone, 
+                       _CEMEmojiTokenGetString, _CEMEmojiTokenIsCommon, _CEMEmojiTokenIsSupportedForLocaleAndSearchMode, 
+                       _CEMEmojiTokenSupportsPresentationStyle, _CEMEmojiTokenSupportsSkinToneVariants, 
+                       _CEMEmojiTokensAreEquivalent, _CEMEnumerateEmojiTokensInStringWithBlock, 
+                       _CEMEnumerateEmojiTokensInStringWithLocaleAndBlock, _CEMLongCharacterIsEmoji, 
+                       _CEMStringContainsEmoji, _CEMStringIsSingleEmoji ]
+...

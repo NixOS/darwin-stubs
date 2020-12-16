@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore'
 current-version: 1159.6
 parent-umbrella: CoreServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _AVLCount, _AVLDispose, _AVLFind, _AVLGetIndItem, _AVLGetRefcon, 
                        _AVLInit, _AVLInsert, _AVLRemove, _AVLWalk, _AddFolderRouting, 

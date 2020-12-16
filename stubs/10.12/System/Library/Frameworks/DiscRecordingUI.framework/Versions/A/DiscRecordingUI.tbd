@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 5A3AFB57-E77D-31CD-887E-49C078FF9DE5', 'x86_64: 213F86C8-227C-349F-8CEA-E78CAA097E72' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/DiscRecordingUI.framework/Versions/A/DiscRecordingUI'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _DRBurnIcon, _DRBurnProgressPanelDidFinishNotification, _DRBurnProgressPanelWillBeginNotification, 
                        _DRBurnSessionBeginProgressDialog, _DRBurnSessionCreate, _DRBurnSessionGetBurn, 

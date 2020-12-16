@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 9541001A-DADA-3104-A8F7-4633B9085C98', 'x86_64: 43620BB5-4583-33D0-9ABB-B401B2636E17' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/GLUT.framework/Versions/A/GLUT'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ ___glutGetFCB, ___glutSetFCB, __gle_gc, _gleCreateGC, _gleExtrusion, 
                        _gleGetJoinStyle, _gleGetNumSlices, _gleHelicoid, _gleLathe, 

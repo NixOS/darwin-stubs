@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: A86BAB84-BBCD-3E8F-9583-6BDA215A5801', 'x86_64: 0801F3B9-A525-32BB-9BC0-478947CE21D9' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _CGLGetCurrentContext, _CGLSetCurrentContext, _glAccum, _glActiveShaderProgram, 
                        _glActiveStencilFaceEXT, _glActiveTexture, _glActiveTextureARB, 

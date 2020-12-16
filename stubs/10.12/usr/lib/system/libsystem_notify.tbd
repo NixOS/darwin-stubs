@@ -5,7 +5,7 @@ platform:        macosx
 install-name:    '/usr/lib/system/libsystem_notify.dylib'
 current-version: 165.20.1
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ ___libsystem_notifyVersionNumber, ___libsystem_notifyVersionString, 
                        __nc_list_concat, __nc_list_data, __nc_list_free_list, __nc_list_new, 

@@ -4,7 +4,7 @@ uuids:           [ 'i386: B56AE209-208C-39DE-AF58-DB1157F44BAD', 'x86_64: B021F2
 platform:        macosx
 install-name:    '/usr/lib/system/libsystem_networkextension.dylib'
 parent-umbrella: System
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _NEHelperCacheAddRedirectedAddress, _NEHelperCacheClearRedirectedAddresses, 
                        _NEHelperCacheCopyAppUUIDMapping, _NEHelperCacheCopySigningIdentifierMapping, 

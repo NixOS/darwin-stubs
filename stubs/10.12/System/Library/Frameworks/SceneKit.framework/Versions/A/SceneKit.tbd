@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: 423F7CCF-6DFC-3198-BB89-E9F5CAC20520' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit'
 current-version: 186
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _C3DAnimationManagerContainsSceneTimeBasedAnimation, _C3DAnimationManagerIsEmpty, 
                        _C3DConvertGLSLShaderToMetal, _C3DCopyInstanceVariables, _C3DCreateDataWithContentOfURL, 

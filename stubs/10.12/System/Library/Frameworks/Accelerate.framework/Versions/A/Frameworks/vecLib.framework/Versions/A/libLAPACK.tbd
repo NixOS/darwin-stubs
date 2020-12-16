@@ -4,7 +4,7 @@ uuids:           [ 'i386: 346C2F05-E331-3B29-A0CE-9269D8506E40', 'x86_64: 51B2BA
                    'x86_64h: C35FFB2F-A0E6-3903-8A3C-113A74BCBCA2' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib'
-exports:         
+exports:
   - archs:           [ i386, x86_64, x86_64h ]
     symbols:         [ _CBDSQR, _CBDSQR_, _CGBBRD, _CGBBRD_, _CGBCON, _CGBCON_, _CGBEQU, 
                        _CGBEQUB, _CGBEQUB_, _CGBEQU_, _CGBRFS, _CGBRFS_, _CGBSV, 

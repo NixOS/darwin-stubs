@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: ED13248D-6194-3C48-A44C-009731DCC1DC', 'x86_64: FA068C6F-0506-35C3-A637-C4AFF82411DB' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox'
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ __Z16FileStreamCreateP10FileReaderPK25opaqueCMFormatDescriptionP20OpaqueFigTrackReaderm, 
                        __ZN10ADTSHeader11DeserializeEPKhm, __ZN10ADTSHeader7IsValidEPl, 

@@ -3,7 +3,7 @@ archs:           [ i386, x86_64 ]
 uuids:           [ 'i386: 8B4DA5BC-9F01-3A63-8EE9-7DCC6BEA0061', 'x86_64: 98582876-88BD-3CC4-B856-7C9F8BD47C15' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/PCSC.framework/Versions/A/PCSC'
-exports:         
+exports:
   - archs:           [ i386, x86_64 ]
     symbols:         [ _DYN_CloseLibrary, _DYN_GetAddress, _DYN_LoadLibrary, _DebugLogCategory, 
                        _DebugLogSetCategory, _DebugLogSetLevel, _DebugLogSetLogType, 

@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 39668FFD-4624-34E5-A962-B4BEF8B25FED' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _IntentsCoreVersionNumber, _IntentsCoreVersionString, _kINCExtensionLaunchingTimeout ]
+    objc-classes:    [ _INCExtensionRequest, _INCSchemaManager, _INCWatchdogTimer ]
+...

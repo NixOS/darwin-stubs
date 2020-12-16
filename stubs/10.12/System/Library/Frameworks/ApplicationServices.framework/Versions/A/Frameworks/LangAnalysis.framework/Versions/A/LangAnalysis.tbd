@@ -4,7 +4,7 @@ uuids:           [ 'i386: 86FEA0B2-0308-3C26-971C-C8C1640BFAA2', 'x86_64: 2CBE7F
 platform:        macosx
 install-name:    '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis'
 parent-umbrella: ApplicationServices
-exports:         
+exports:
   - archs:           [ i386 ]
     symbols:         [ _DCMDeriveNewDictionary, _DCMGetDictionaryIDFromFile, _DCMGetFileFromDictionaryID, 
                        _DCMNewDictionary, _DCMRegisterDictionaryFile, _LAAddNewWord, 

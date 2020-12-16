@@ -4,7 +4,7 @@ uuids:           [ 'x86_64: 0D7CA65F-A2FC-3E44-B44E-B9EC1FA416B9' ]
 platform:        macosx
 install-name:    '/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit'
 current-version: 671.7
-exports:         
+exports:
   - archs:           [ x86_64 ]
     symbols:         [ _BirthdaySourceType, _CalDAVSourceType, _EKActionConfirmSuggestedEvent, 
                        _EKActionRejectSuggestedEvent, _EKAlarmLocationBundleIdentifier, 
