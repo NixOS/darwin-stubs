@@ -21,7 +21,7 @@ while getopts "o:" opt; do
   esac
 done
 
-cp "$(nix-build --no-out-link --expr '
+install -Dm a=r,u+w "$(nix-build --no-out-link --expr '
   let
     pkgs = import <nixpkgs> {};
   in
