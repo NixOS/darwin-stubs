@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 let
   drv = { stdenv, lib, makeWrapper, jq, yq, ruby, gnused, coreutils }: stdenv.mkDerivation {
-    name = "generate-all";
+    name = "darwin-stubs-tools";
     src = lib.sourceFilesBySuffices ./. [ ".sh" ".rb" ".json" ];
 
     nativeBuildInputs = [ makeWrapper ];
@@ -19,6 +19,9 @@ let
 
       makeWrapper $out/libexec/generate-all.sh $out/bin/generate-all \
         --prefix PATH : ${lib.makeBinPath [ jq yq gnused coreutils ]}
+      makeWrapper $out/libexec/update-framework-names.sh \
+        $out/bin/update-framework-names \
+        --prefix PATH : ${lib.makeBinPath [ coreutils ]}
     '';
   };
 in
