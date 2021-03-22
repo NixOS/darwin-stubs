@@ -9,8 +9,7 @@ nixpkgs.
 
 ## Framework Names
 
-These are derived from nixpkgs and stored in this repository for
-consistency. To update:
+These are derived from nixpkgs for consistency. To update:
 
     nix run -f scripts -c update-framework-names -o scripts/framework-names.json
 
