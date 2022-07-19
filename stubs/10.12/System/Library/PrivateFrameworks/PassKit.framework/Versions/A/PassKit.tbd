@@ -1,14 +1,14 @@
 --- !tapi-tbd-v2
-archs: [x86_64]
-uuids: ['x86_64: 77C5EEE9-6F8F-3D97-88CE-0B3AB5C042E0']
-platform: macosx
-install-name: '/System/Library/PrivateFrameworks/PassKit.framework/Versions/A/PassKit'
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 77C5EEE9-6F8F-3D97-88CE-0B3AB5C042E0' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/PassKit.framework/Versions/A/PassKit'
 exports:
-- archs: [x86_64]
-  re-exports: ['@PassKitCore@/Library/Frameworks/PassKitCore.framework/Versions/A/PassKitCore']
-  symbols: [_PKExtensionAvailableExtensions, _PKExtensionAvailableExtensionsChangedNotification,
-    _PKExtensionPaymentAuthorizationUIExtensionPointName, _PKExtensionPaymentAuthorizationUIIdentifier]
-  objc-classes: [_PKExtension, _PKExtensionBaseContext, _PKExtensionHostContext, _PKExtensionProvider,
-    _PKExtensionRemoteViewController, _PKExtensionServiceViewController, _PKExtensionVendorContext,
-    _PKPaymentAuthorizationViewController]
+  - archs:           [ x86_64 ]
+    re-exports:      [ '/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore' ]
+    symbols:         [ _PKExtensionAvailableExtensions, _PKExtensionAvailableExtensionsChangedNotification, 
+                       _PKExtensionPaymentAuthorizationUIExtensionPointName, _PKExtensionPaymentAuthorizationUIIdentifier ]
+    objc-classes:    [ _PKExtension, _PKExtensionBaseContext, _PKExtensionHostContext, 
+                       _PKExtensionProvider, _PKExtensionRemoteViewController, _PKExtensionServiceViewController, 
+                       _PKExtensionVendorContext, _PKPaymentAuthorizationViewController ]
 ...
