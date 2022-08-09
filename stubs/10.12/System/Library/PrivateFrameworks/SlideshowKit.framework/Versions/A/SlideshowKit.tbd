@@ -1,14 +1,14 @@
 --- !tapi-tbd-v2
-archs: [x86_64]
-uuids: ['x86_64: 6B3ADD70-2ED5-31CF-87E3-CED01A640E3A']
-platform: macosx
-install-name: '/System/Library/PrivateFrameworks/SlideshowKit.framework/Versions/A/SlideshowKit'
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 6B3ADD70-2ED5-31CF-87E3-CED01A640E3A' ]
+platform:        macosx
+install-name:    '/System/Library/PrivateFrameworks/SlideshowKit.framework/Versions/A/SlideshowKit'
 current-version: 1.1
 compatibility-version: 1.1
 exports:
-- archs: [x86_64]
-  re-exports: ['@SlideshowKit@/Library/Frameworks/SlideshowKit.framework/Frameworks/OpusFoundation.framework/Versions/A/OpusFoundation',
-    '@SlideshowKit@/Library/Frameworks/SlideshowKit.framework/Frameworks/OpusKit.framework/Versions/A/OpusKit']
-  symbols: [_SlideshowKitUmbrellaString, _SlideshowKitVersionNumber, _SlideshowKitVersionString]
-  objc-classes: [_SlideshowKit]
+  - archs:           [ x86_64 ]
+    re-exports:      [ '/System/Library/PrivateFrameworks/SlideshowKit.framework/Frameworks/OpusFoundation.framework/Versions/A/OpusFoundation', 
+                       '/System/Library/PrivateFrameworks/SlideshowKit.framework/Frameworks/OpusKit.framework/Versions/A/OpusKit' ]
+    symbols:         [ _SlideshowKitUmbrellaString, _SlideshowKitVersionNumber, _SlideshowKitVersionString ]
+    objc-classes:    [ _SlideshowKit ]
 ...

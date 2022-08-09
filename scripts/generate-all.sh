@@ -38,5 +38,3 @@ mkdir -p "$out"
 @out@/libexec/frameworks-tbd.sh -s "$sysroot" -o "$out"
 
 @out@/libexec/add-aliases.sh -s "$sysroot" -o "$out"
-
-@out@/libexec/link-frameworks.rb "$out/System/Library/**/*.tbd"
